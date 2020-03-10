@@ -1,0 +1,63 @@
+{
+    "name": "LinksReporter",
+    "version": "1.0.0",
+    "author": "Alexander Yukal",
+    "url": "https://github.com/yukal/mediawiki-extensions-LinksReporter",
+    "license-name": "MIT",
+    "namemsg": "linksreporter-name",
+    "descriptionmsg": "linksreporter-desc",
+    "type": "other",
+    "requires": {
+        "MediaWiki": ">= 1.31.0",
+        "platform": {
+            "php": ">= 7.0"
+        }
+    },
+    "APIModules": {
+        "linksreporter": "ApiLinksReporter"
+    },
+    "MessagesDirs": {
+        "LinksReporter": [
+            "i18n",
+            "i18n/api"
+        ]
+    },
+    "AutoloadClasses": {
+        "ApiLinksReporter": "src/ApiLinksReporter.php",
+        "LinksReporterPage": "src/LinksReporterPage.php",
+        "LinksReporterPager": "src/LinksReporterPager.php"
+    },
+    "SpecialPages": {
+        "LinksReporter": "LinksReporterPage"
+    },
+    "ExtensionMessagesFiles": {
+        "LinksReporterAlias": "LinksReporter.alias.php"
+    },
+    "AvailableRights": [
+        "linksreporter-right"
+    ],
+    "ResourceModules": {
+        "ext.LinksReporter": {
+            "scripts": "ext.linksReporter.js",
+            "styles": "ext.linksReporter.css",
+            "messages": [
+                "linksreporter-nosuch-article-id",
+                "linksreporter-nosuch-act-type"
+            ],
+            "targets": [
+                "mobile",
+                "desktop"
+            ],
+            "dependencies": [
+                "mediawiki.api",
+                "oojs-ui-core",
+                "oojs-ui-widgets"
+            ]
+        }
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "static",
+        "remoteExtPath": "LinksReporter/static"
+    },
+    "manifest_version": 2
+}

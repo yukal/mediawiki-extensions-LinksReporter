@@ -1,0 +1,15 @@
+{
+    "@metadata": {
+        "authors": [
+            "Alexander Yukal"
+        ]
+    },
+    "linksreporter": "LinksReporter",
+    "linksreporter-name": "LinksReporter",
+    "linksreporter-desc": "Предоставляет список партнерских статей",
+    "linksreporter-no-articles": "За сегодня еще не добавлено ни одной статьи",
+    "linksreporter-added-pages": "Добавленные страницы",
+    "linksreporter-pages-in-cache": "Страницы в кеш-файле",
+    "linksreporter-nosuch-article-id": "Невозможно загрузить статью по указанному ID: «$1».",
+    "linksreporter-nosuch-act-type": "Обращение к неизвестному типу действий «$1»."
+}

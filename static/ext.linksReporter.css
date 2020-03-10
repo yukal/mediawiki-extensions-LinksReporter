@@ -1,0 +1,29 @@
+.linksreporter-rows .row {
+    margin: 4px 0;
+}
+
+.linksreporter-btn-pluse,
+.linksreporter-btn-minus {
+    display: inline-block;
+    padding: 4px 8px;
+    min-width: 17px;
+    text-align: center;
+    background: #dfebf7;
+}
+
+.linksreporter-btn-minus {
+    background: #dfebf7;
+}
+
+.linksreporter-row-added {
+    background-color: #dee8ff;
+}
+
+.linksreporter-row-added .linksreporter-btn-minus {
+    background: #bad4ef;
+}
+
+.mw-newpages-time {
+    display: inline-block;
+    margin: 0 6px;
+}
