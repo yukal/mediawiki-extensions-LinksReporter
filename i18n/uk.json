@@ -10,6 +10,6 @@
     "linksreporter-no-articles": "Сьогодні ще не додано жодної статті",
     "linksreporter-added-pages": "Додані сторінки",
     "linksreporter-pages-in-cache": "Сторінки в кеш-файлі",
-    "linksreporter-nosuch-article-id": "Неможливо завантажити статтю за вказаним ID: «$1».",
-    "linksreporter-nosuch-act-type": "Звернення до невідомого типу дії «$1»."
+    "linksreporter-noaid": "Неможливо завантажити статтю за вказаним ID: «$1».",
+    "linksreporter-noatype": "Звернення до невідомого типу дії «$1»."
 }

@@ -10,6 +10,6 @@
     "linksreporter-no-articles": "За сегодня еще не добавлено ни одной статьи",
     "linksreporter-added-pages": "Добавленные страницы",
     "linksreporter-pages-in-cache": "Страницы в кеш-файле",
-    "linksreporter-nosuch-article-id": "Невозможно загрузить статью по указанному ID: «$1».",
-    "linksreporter-nosuch-act-type": "Обращение к неизвестному типу действий «$1»."
+    "linksreporter-noaid": "Невозможно загрузить статью по указанному ID: «$1».",
+    "linksreporter-noatype": "Обращение к неизвестному типу действий «$1»."
 }

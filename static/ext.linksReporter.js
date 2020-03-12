@@ -27,12 +27,14 @@ mw.loader.using('oojs-ui-core').done(function () {
         }
 
         function processAjax(obj, type) {
-            var id = $(obj).data('mw-aid');
+            var token = mw.user.tokens.values.csrfToken;
+            var aid = $(obj).data('mw-aid');
 
             $.ajax({
                 method: 'POST',
-                url: '/api.php?action=linksreporter&format=json&type='+type+'&aid='+id,
+                url: '/api.php?action=linksreporter&format=json',
                 cache: false,
+                data: { type, aid, token },
                 // crossDomain: true,
                 success: function(data, status, xhr) {
                     if (data.error) {
